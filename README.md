@@ -1,6 +1,6 @@
 # WeRateDogs
-Data wrangling of WeRateDogs tweets including gathering and analysis.
-Data Gathering
+# Data wrangling of WeRateDogs tweets including gathering and analysis.
+## Data Gathering
 ## Read data from twitter-archive-enhanced.csv 
 ## write tweet_json.txt from the api
 ## Source 1
@@ -10,11 +10,11 @@ Data Gathering
 ## create the image_prediction dataframe from image-predictions.tsv
 ## Source 3
 ## create twitter-archive-enhanced dataframe from twitter-archive-enhanced.csv
-Assessment
-Visual assessment¶
-Data Wrangling
-Analyse data type,size,null,duplicates,unique etc for all 3 sources
-Issues noted during visual and programmatic assessment is done by opening the twitter_archive_enhanced.csv in google sheets
+## Assessment
+# Visual assessment¶
+## Data Wrangling
+# Analyse data type,size,null,duplicates,unique etc for all 3 sources
+# Issues noted during visual and programmatic assessment is done by opening the twitter_archive_enhanced.csv in google sheets
 Quality Issue in twitter_archive_enhanced.csv
 Issue 1. Retweet id is present for many rows
 Issue 2. Ratings are accessed by programmatic addition of column ratings and fixing the rows with 0 denominator values
