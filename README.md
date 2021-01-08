@@ -32,5 +32,5 @@
 #### Issue 12. Columns doggo ,floofer, pupper, puppo need to be under one column heading DoggoLingo
 #### Issue 13. Column retweet_count , favorite_count of jtweet_jason_df need to be with columns of twitter_archive_enhanced.csv as it makes more relevance along with other variables
 #### Issue 14. Image and highest prediction need to be with columns of twitter_archive_enhanced.csv as it makes more relevance along with other variables
-#### Clean¶
-#### Exploratory Data Analysis¶
+#### Clean
+#### Exploratory Data Analysis
