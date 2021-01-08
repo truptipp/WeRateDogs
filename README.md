@@ -1,5 +1,13 @@
+### Overview 
 ### WeRateDogs
-#### Data wrangling of WeRateDogs tweets including gathering and analysis.
+#### Data wrangling of WeRateDogs tweets including gathering and analysis of tweets data.
+#### -------------------------------------------------------------------------------------
+#### Technologies used
+##### Python
+###### Libraries used :pandas, numpy, matplotlib, seaborn,
+#### -------------------------------------------------------------------------------------
+#### Issues found in Data 
+#### -------------------------------------------------------------------------------------
 #### Data Gathering
 #### Read data from twitter-archive-enhanced.csv 
 #### write tweet_json.txt from the api
@@ -10,12 +18,16 @@
 #### create the image_prediction dataframe from image-predictions.tsv
 #### Source 3
 #### create twitter-archive-enhanced dataframe from twitter-archive-enhanced.csv
-#### Assessment
-#### Visual assessment¶
+#### Issues found in Data 
+#### -------------------------------------------------------------------------------------
 #### Data Wrangling
+#### -------------------------------------------------------------------------------------
+#### Visual assessment & Programmatics assessment
+#### -------------------------------------------------------------------------------------
 #### Analyse data type,size,null,duplicates,unique etc for all 3 sources
 #### Issues noted during visual and programmatic assessment is done by opening the twitter_archive_enhanced.csv in google sheets
 #### Quality Issue in twitter_archive_enhanced.csv
+#### --------------------------------------------------------------------------------------------------------
 #### Issue 1. Retweet id is present for many rows
 #### Issue 2. Ratings are accessed by programmatic addition of column ratings and fixing the rows with 0 denominator values
 #### Issue 3. 181 are retweet
@@ -30,7 +42,8 @@
 #### Issue 11. tweet_id, retweet_count & favorite_count are object.
 #### Tidyness issues
 #### Issue 12. Columns doggo ,floofer, pupper, puppo need to be under one column heading DoggoLingo
-#### Issue 13. Column retweet_count , favorite_count of jtweet_jason_df need to be with columns of twitter_archive_enhanced.csv as it makes more relevance along with other variables
+#### Issue 13. Column retweet_count , favorite_count of jtweet_jason_df need to be with columns of twitter_archive_enhanced.csv as it makes more relevance along #### with other variables
 #### Issue 14. Image and highest prediction need to be with columns of twitter_archive_enhanced.csv as it makes more relevance along with other variables
+#### ------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### Clean
 #### Exploratory Data Analysis
